@@ -1,24 +1,32 @@
-import logo from './logo.svg';
-import './App.css';
+import React from "react";
+import { ThemeProvider } from "styled-components";
+import { theme } from "./utils/Theme";
+import { Container, MainBody, FadeImage } from "./styles/Global.styled";
+import Showcase from "./components/Showcase";
+import MySkills from "./components/MySkills";
+import MyProjects from "./components/MyProjects";
+import Footer from "./components/Footer";
+import Navbar from "./components/Navbar";
+import TopFadeImage from "./assets/top.png";
+import LeftFadeImage from "./assets/left.png";
+import RightFadeImage from "./assets/right.png";
+import BottomFadeImage from "./assets/bottom.png";
 
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
+    <ThemeProvider theme={theme}>
+      <MainBody>
+        <Navbar />
+        <Container>
+          <Showcase />
+          <MySkills />
+          <MyProjects />
+          <Footer />
+        </Container>
+        <FadeImage src={TopFadeImage} top="0" />
+        <FadeImage src={LeftFadeImage} top="30vh" />
+      </MainBody>
+    </ThemeProvider>
   );
 }
 

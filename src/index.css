@@ -1,13 +1,120 @@
-body {
+* {
   margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
+  padding: 0;
+  box-sizing: border-box;
+}
+html {
+  overflow-x: hidden;
+  scroll-behavior: smooth;
+}
+body {
+  overflow: hidden;
+  font-family: "DM Sans";
+  position: relative;
 }
 
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
+::-webkit-scrollbar {
+  width: 10px;
+  background: #131c31;
+}
+
+::-webkit-scrollbar-thumb {
+  background: linear-gradient(#7eadfc, #131c13);
+  border-radius: 10px;
+}
+
+/* MODAL */
+
+.services__modal {
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background: rgba(0, 0, 0, 0.4);
+  z-index: 1000 !important;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 0 0.5rem;
+  opacity: 0;
+  visibility: hidden;
+  transition: 0.3s;
+}
+.services__modal-content {
+  overflow: auto;
+  height: fit-content;
+  max-height: 100%;
+  width: 500px;
+  position: relative;
+  background: #fff;
+  padding: 4.5rem 2.5rem 2.5rem;
+  border-radius: 1.5rem;
+  color: #333;
+  z-index: 9999 !important;
+  padding: 1rem;
+}
+.services__modal-close {
+  position: absolute;
+  top: 1.5rem;
+  right: 1.5rem;
+  font-size: 1.5rem;
+  color: #000;
+  cursor: pointer;
+}
+.services__modal-title {
+  font-size: 1.15rem !important;
+  font-weight: 700;
+  margin-bottom: 1.8rem;
+  text-align: center;
+}
+.services__modal-description {
+  font-size: 1.1rem !important;
+  font-weight: 600 !important;
+  padding: 0 0.5rem;
+  margin-bottom: 2rem;
+  text-align: left;
+  color: #222121 !important;
+  line-height: 1.3rem !important;
+}
+.services__modal-services {
+  row-gap: 0.75rem;
+  width: fit-content;
+  margin: auto;
+}
+.services__modal-services img {
+  height: unset;
+  width: 100%;
+  object-fit: contain;
+  box-shadow: 0px -1px 15px -5px #454343;
+  -webkit-box-shadow: 0px -1px 15px -5px #dad0d0;
+}
+.services__modal-service {
+  display: flex;
+  align-items: center;
+  column-gap: 0.5rem;
+}
+.services__modal-icon {
+  color: hsl(var(--hue), var(--sat), 20%);
+  font-size: 1.1rem;
+}
+.services__modal-info {
+  font-size: 0.875rem;
+}
+
+/* Active Modal */
+
+.active-modal {
+  opacity: 1;
+  visibility: visible;
+}
+
+@media (max-width: 676px) {
+  .services__modal-description {
+    font-size: 0.8rem;
+  }
+  .services__modal-services video {
+    height: 400px !important;
+    object-fit: cover;
+  }
 }
