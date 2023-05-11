@@ -48,16 +48,19 @@ const Footer = () => {
             whileInView="visible"
           >
             <PaddingContainer bottom="2rem">
-              <FormLabel>Name:</FormLabel>
-              <FormInput type="text" placeholder="Enter your name" />
+              <FormLabel>Imię i nazwisko:</FormLabel>
+              <FormInput
+                type="text"
+                placeholder="Wpisz swoje imię i nazwisko"
+              />
             </PaddingContainer>
             <PaddingContainer bottom="2rem">
               <FormLabel>Email:</FormLabel>
-              <FormInput type="email" placeholder="Enter your email" />
+              <FormInput type="email" placeholder="Podaj swój email" />
             </PaddingContainer>
             <PaddingContainer bottom="2rem">
-              <FormLabel>Message:</FormLabel>
-              <FormInput as="textarea" placeholder="Enter your email" />
+              <FormLabel>Wiadomość:</FormLabel>
+              <FormInput as="textarea" placeholder="Napisz wiadomość" />
             </PaddingContainer>
             <FlexContainer justify="center" responsiveFlex>
               <Button>Wyślij wiadomość</Button>

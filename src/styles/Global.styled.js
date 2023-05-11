@@ -119,6 +119,11 @@ export const IconContainer = styled.div`
   font-size: ${({ size }) => size};
 `;
 
+export const Link = styled.a`
+  cursor: pointer;
+  color: ${({ theme }) => theme.colors.white};
+`;
+
 export const Button = styled.a`
   display: inline-block;
   width: max-content;

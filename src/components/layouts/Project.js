@@ -100,14 +100,6 @@ const Project = ({ data }) => {
             koszykówka, siatkówka, piłka nożna, badminton, tenis stołowy, dzięki
             czemu podopieczni uczą się zasad współpracy i rywalizacji.
           </p>
-          <p className="services__modal-description">
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Porro,
-            atque? Fuga quae eveniet possimus tempora molestias? Modi,
-            recusandae. Unde ea architecto rem quis, voluptates aliquam
-            expedita, qui minus totam necessitatibus vero veritatis deserunt
-            quidem tempora pariatur ipsam accusamus odio. Pariatur cumque nam
-            eveniet. Vitae illum dolor sapiente libero, beatae dolorum?
-          </p>
           <div className="services__modal-services">
             <img src={data.img} alt="..." />
           </div>

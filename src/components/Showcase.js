@@ -1,5 +1,6 @@
 import React from "react";
 import { motion } from "framer-motion";
+import { Link } from "react-router-dom";
 import {
   PaddingContainer,
   FlexContainer,
@@ -30,6 +31,14 @@ const Showcase = () => {
       responsiveRight="1rem"
       responsiveTop="8rem"
     >
+      <a
+        href="https://stackoverflow.com"
+        rel="noopener noreferrer"
+        target="_blank"
+        aria-label="Twitter"
+      >
+        tekst
+      </a>
       <FlexContainer align="center" fullWidthChild>
         {/* left-content */}
         <motion.div
