@@ -19,8 +19,7 @@ a {
   font-size: 20px;
   transition: 0.3s;
 }
-a:hover,
-a:visited {
+a:hover {
   color: #ababab;
 }
 ::-webkit-scrollbar {
