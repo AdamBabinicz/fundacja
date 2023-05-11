@@ -11,25 +11,22 @@ import TopFadeImage from "./assets/top.png";
 import LeftFadeImage from "./assets/left.png";
 import RightFadeImage from "./assets/right.png";
 import BottomFadeImage from "./assets/bottom.png";
-import { BrowserRouter as Router } from "react-router-dom";
 
 function App() {
   return (
-    <Router>
-      <ThemeProvider theme={theme}>
-        <MainBody>
-          <Navbar />
-          <Container>
-            <Showcase />
-            <MySkills />
-            <MyProjects />
-            <Footer />
-          </Container>
-          <FadeImage src={TopFadeImage} top="0" />
-          <FadeImage src={LeftFadeImage} top="30vh" />
-        </MainBody>
-      </ThemeProvider>
-    </Router>
+    <ThemeProvider theme={theme}>
+      <MainBody>
+        <Navbar />
+        <Container>
+          <Showcase />
+          <MySkills />
+          <MyProjects />
+          <Footer />
+        </Container>
+        {/* <FadeImage src={TopFadeImage} top="0" />
+          <FadeImage src={LeftFadeImage} top="30vh" /> */}
+      </MainBody>
+    </ThemeProvider>
   );
 }
 

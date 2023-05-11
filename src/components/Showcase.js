@@ -1,6 +1,6 @@
 import React from "react";
 import { motion } from "framer-motion";
-import { Link } from "react-router-dom";
+import { Links as Link } from "react-router-dom";
 import {
   PaddingContainer,
   FlexContainer,
@@ -8,6 +8,7 @@ import {
   ParaText,
   BlueText,
   IconContainer,
+  Links,
 } from "../styles/Global.styled";
 import {
   ShowcaseParticleContainer,
@@ -31,14 +32,6 @@ const Showcase = () => {
       responsiveRight="1rem"
       responsiveTop="8rem"
     >
-      <a
-        href="https://stackoverflow.com"
-        rel="noopener noreferrer"
-        target="_blank"
-        aria-label="Twitter"
-      >
-        tekst
-      </a>
       <FlexContainer align="center" fullWidthChild>
         {/* left-content */}
         <motion.div
@@ -67,16 +60,44 @@ const Showcase = () => {
           {/* social icons */}
           <FlexContainer gap="20px" responsiveFlex>
             <IconContainer color="white" size="1.5rem">
-              <BsTwitter />
+              <a
+                href="https://twitter.com"
+                rel="noopener noreferrer"
+                target="_blank"
+                aria-label="Twitter"
+              >
+                <BsTwitter />
+              </a>
             </IconContainer>
             <IconContainer color="white" size="1.5rem">
-              <BsYoutube />
+              <a
+                href="https://youtube.com"
+                rel="noopener noreferrer"
+                target="_blank"
+                aria-label="Youtube"
+              >
+                <BsYoutube />
+              </a>
             </IconContainer>
             <IconContainer color="white" size="1.5rem">
-              <BsInstagram />
+              <a
+                href="https://instagram.com"
+                rel="noopener noreferrer"
+                target="_blank"
+                aria-label="Instagram"
+              >
+                <BsInstagram />
+              </a>
             </IconContainer>
             <IconContainer color="white" size="1.5rem">
-              <BsFacebook />
+              <a
+                href="https://facebook.com"
+                rel="noopener noreferrer"
+                target="_blank"
+                aria-label="Facebook"
+              >
+                <BsFacebook />
+              </a>
             </IconContainer>
           </FlexContainer>
         </motion.div>
