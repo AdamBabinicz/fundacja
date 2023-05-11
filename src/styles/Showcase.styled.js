@@ -25,7 +25,7 @@ export const ShowcaseImageCard = styled.div`
     object-fit: cover;
 
     @media (max-width: ${({ theme }) => theme.breakpoints.mobile}) {
-      height: 320px;
+      height: 300px;
     }
   }
 `;
