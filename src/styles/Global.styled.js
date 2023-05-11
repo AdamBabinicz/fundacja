@@ -142,7 +142,7 @@ export const FadeImage = styled.img`
   right: ${({ right }) => right};
   left: ${({ left }) => left};
   bottom: ${({ bottom }) => bottom};
-  z-index: 0;
+  z-index: -1;
 
   @media (max-width: ${({ theme }) => theme.breakpoints.mobile}) {
     display: none;
