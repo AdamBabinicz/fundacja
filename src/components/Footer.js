@@ -102,7 +102,7 @@ const Footer = () => {
               />
             </PaddingContainer>
             <FlexContainer justify="center" responsiveFlex>
-              <ButtonInput type="submit" value="Wyślij" />
+              <ButtonInput type="submit" value="Wyślij wiadomość" />
             </FlexContainer>
           </ContactForm>
         </FlexContainer>
