@@ -2,7 +2,7 @@ import Project1 from "../assets/5.jpg";
 import Project2 from "../assets/10.jpg";
 import Project3 from "../assets/3.jpg";
 import Project4 from "../assets/11.jpg";
-import Project5 from "../assets/13.jpg";
+import Project5 from "../assets/14.jpg";
 import Project6 from "../assets/12.jpg";
 import { SlLocationPin } from "react-icons/sl";
 import { AiOutlinePhone } from "react-icons/ai";
