@@ -33,6 +33,8 @@ export const NavMenuContainer = styled.div`
   width: 100%;
   background: ${({ theme }) => theme.colors.primary_light};
   z-index: 1;
+  display: grid;
+  grid-template-rows: repeat(4, 1fr);
 `;
 export const MenuItem = styled.a`
   color: #fff;
