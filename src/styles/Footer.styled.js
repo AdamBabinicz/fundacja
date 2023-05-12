@@ -37,8 +37,10 @@ export const RightsReserved = styled.div`
   font-size: 14px;
 
   @media (max-width: ${({ theme }) => theme.breakpoints.mobile}) {
-    bottom: 0;
-    padding-top: 3rem;
-    padding-bottom: 1rem;
+    position: relative;
+    display: flex;
+    justify-content: center;
+    margin-top: 2rem;
+    bottom: 0rem;
   }
 `;
