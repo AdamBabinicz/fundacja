@@ -33,10 +33,10 @@ const Project = ({ data }) => {
         <FlexContainer align="center" gap="1rem">
           <Heading as="h3" size="h3" bottom="1rem">
             {data.project_name}
+            <IconContainer color="blue" size="2rem">
+              {data.icon}
+            </IconContainer>
           </Heading>
-          <IconContainer color="blue" size="2rem">
-            {data.icon}
-          </IconContainer>
         </FlexContainer>
         <PaddingContainer top="1rem">
           <FlexContainer gap="1.5rem">
