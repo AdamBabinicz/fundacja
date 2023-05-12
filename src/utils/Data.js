@@ -2,8 +2,13 @@ import Project1 from "../assets/5.jpg";
 import Project2 from "../assets/10.jpg";
 import Project3 from "../assets/3.jpg";
 import Project4 from "../assets/11.jpg";
+import Project5 from "../assets/13.jpg";
+import Project6 from "../assets/12.jpg";
 import { SlLocationPin } from "react-icons/sl";
 import { AiOutlinePhone } from "react-icons/ai";
+import { FaVolleyballBall } from "react-icons/fa";
+import { MdPalette } from "react-icons/md";
+import { BsFillCloudSunFill } from "react-icons/bs";
 
 export const Skills = [
   {
@@ -47,18 +52,31 @@ export const projectDetails = [
     tech_stack: ["Rysunek", "Grafika", "Malarstwo", "Komiks"],
     project_img: Project1,
     img: Project3,
-    project_url: 1,
+    project_n: 1,
     reverse: false,
+    icon: <MdPalette />,
   },
   {
     id: 2,
-    project_name: "Zajęcia sportowe i rekreacyjne",
+    project_name: "Zajęcia sportowe",
     project_desc: "Zajęcia dla różnych grup wiekowych",
     tech_stack: ["Piłka nożna", "Lekkoatletyka", "Siatkówka"],
     project_img: Project2,
     img: Project4,
-    project_url: 2,
+    project_n: 2,
     reverse: true,
+    icon: <FaVolleyballBall />,
+  },
+  {
+    id: 3,
+    project_name: "Zajęcia rekreacyjne",
+    project_desc: "Zajęcia dla różnych grup wiekowych",
+    tech_stack: ["Parki zabaw", "Pikniki", "Wycieczki"],
+    project_img: Project5,
+    img: Project6,
+    project_n: 3,
+    reverse: false,
+    icon: <BsFillCloudSunFill />,
   },
 ];
 

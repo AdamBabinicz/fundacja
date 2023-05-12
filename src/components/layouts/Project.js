@@ -35,7 +35,7 @@ const Project = ({ data }) => {
             {data.project_name}
           </Heading>
           <IconContainer color="blue" size="2rem">
-            <FaSun />
+            {data.icon}
           </IconContainer>
         </FlexContainer>
         <PaddingContainer top="1rem">
@@ -48,10 +48,7 @@ const Project = ({ data }) => {
         <ParaText top="1.5rem" bottom="2rem">
           {data.project_desc}
         </ParaText>
-        <Button
-          className="demo-btn"
-          onClick={() => toggleTab(data.project_url)}
-        >
+        <Button className="demo-btn" onClick={() => toggleTab(data.project_n)}>
           Zobacz
         </Button>
       </motion.div>
@@ -99,6 +96,40 @@ const Project = ({ data }) => {
             W trakcie zajęć wdrażane są elementy gier sportowych, takich jak:
             koszykówka, siatkówka, piłka nożna, badminton, tenis stołowy, dzięki
             czemu podopieczni uczą się zasad współpracy i rywalizacji.
+          </p>
+          <div className="services__modal-services">
+            <img src={data.img} alt="..." />
+          </div>
+        </div>
+      </div>
+
+      <div
+        className={
+          toggleState === 3 ? "services__modal active-modal" : "services__modal"
+        }
+      >
+        <div className="services__modal-content">
+          <i
+            onClick={() => toggleTab(0)}
+            className="uil uil-times services__modal-close"
+          ></i>
+          <h3 className="services__modal-title">Grupowe zajęcia rekreacyjne</h3>
+          <p className="services__modal-description">
+            Minimum aktywności ruchowej u dziecka badacze wytyczają na 6 godzin
+            zorganizowanego ruchu w tygodniu. Aktywność ruchowa dziecka jest
+            niezbędna do prawidłowego jego funkcjonowania, dlatego dziecko
+            oprócz uczestnictwa w zajęciach wychowania fizycznego, odbywających
+            się w szkole, powinno mieć możliwość udziału w takich czynnościach
+            ze swoimi rówieśnikami poza szkołą. Największą potrzebę ruchową
+            dzieci wykazują w wieku przedszkolnym i wczesnoszkolnym, jest ona
+            konieczna do prawidłowego rozwoju umysłowego i fizycznego dziecka.
+            Dzieci w tym wieku wykazują nadmierną pobudliwość, dlatego też
+            aktywność ruchowa powinna zmierzać do kształtowania ich zdolności
+            manualnych koordynacji ruchowej, reakcji na sygnały akustyczne i
+            optyczne. Niespełnienie minimalnej normy aktywności ruchowej
+            przyczynia się do ograniczenia wszelakich procesów zachodzących w
+            okresie rozwoju dziecka oraz może stać się czynnikiem hamującym
+            rozwój świadomości i aktywności ruchowej w dalszych etapach życia.
           </p>
           <div className="services__modal-services">
             <img src={data.img} alt="..." />
