@@ -32,10 +32,12 @@ const Project = ({ data }) => {
       >
         <FlexContainer align="center" gap="1rem">
           <Heading as="h3" size="h3" bottom="1rem">
-            {data.project_name}
-            <IconContainer color="blue" size="2rem">
-              {data.icon}
-            </IconContainer>
+            <div className="icon">
+              {data.project_name}
+              <IconContainer color="blue" size="2rem">
+                {data.icon}
+              </IconContainer>
+            </div>
           </Heading>
         </FlexContainer>
         <PaddingContainer top="1rem">

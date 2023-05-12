@@ -30,6 +30,9 @@ a:hover {
   background: linear-gradient(#7eadfc, #131c13);
   border-radius: 10px;
 }
+.icon {
+  display: flex;
+}
 
 /* MODAL */
 

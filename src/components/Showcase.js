@@ -26,7 +26,7 @@ const Showcase = () => {
       id="start"
       left="3%"
       right="10%"
-      top="18%"
+      top="10%"
       bottom="10%"
       responsiveLeft="1rem"
       responsiveRight="1rem"

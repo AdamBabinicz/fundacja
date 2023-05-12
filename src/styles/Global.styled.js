@@ -34,8 +34,7 @@ export const PaddingContainer = styled.div`
   padding-right: ${({ right }) => right};
 
   @media (max-width: ${({ theme }) => theme.breakpoints.mobile}) {
-    /* padding-top: ${({ responsiveTop }) => responsiveTop}; */
-    padding-top: 0;
+    padding-top: ${({ responsiveTop }) => responsiveTop};
     padding-bottom: ${({ responsiveBottom }) => responsiveBottom};
     padding-left: ${({ responsiveLeft }) => responsiveLeft};
     padding-right: ${({ responsiveRight }) => responsiveRight};
@@ -119,6 +118,7 @@ export const IconContainer = styled.div`
     }
   }};
   font-size: ${({ size }) => size};
+  margin-left: 1rem;
 `;
 
 export const Button = styled.a`
