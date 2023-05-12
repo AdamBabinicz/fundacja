@@ -63,6 +63,7 @@ const Footer = () => {
         top="0.5rem"
       >
         Kontakt <BlueText>z&nbsp;nami</BlueText>
+        <p>fundacjawartosc@gmail.com</p>
       </Heading>
       <PaddingContainer top="3rem">
         <FlexContainer justify="center">

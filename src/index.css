@@ -33,7 +33,9 @@ a:hover {
 .icon {
   display: flex;
 }
-
+p {
+  font-size: 14px;
+}
 /* MODAL */
 
 .services__modal {
