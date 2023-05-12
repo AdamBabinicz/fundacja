@@ -46,5 +46,6 @@ export const MenuItem = styled.a`
   @media (max-width: ${({ theme }) => theme.breakpoints.mobile}) {
     display: ${({ responsiveFlex }) => (responsiveFlex ? "block" : "flex")};
     text-align: center;
+    font-size: 1.9rem;
   }
 `;
