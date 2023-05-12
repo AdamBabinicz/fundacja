@@ -34,7 +34,8 @@ export const PaddingContainer = styled.div`
   padding-right: ${({ right }) => right};
 
   @media (max-width: ${({ theme }) => theme.breakpoints.mobile}) {
-    padding-top: ${({ responsiveTop }) => responsiveTop};
+    /* padding-top: ${({ responsiveTop }) => responsiveTop}; */
+    padding-top: 0;
     padding-bottom: ${({ responsiveBottom }) => responsiveBottom};
     padding-left: ${({ responsiveLeft }) => responsiveLeft};
     padding-right: ${({ responsiveRight }) => responsiveRight};
