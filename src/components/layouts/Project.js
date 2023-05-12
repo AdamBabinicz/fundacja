@@ -70,7 +70,7 @@ const Project = ({ data }) => {
             wykorzystująca techniki plastyczne: malarstwo, rzeźbę, rysunek,
             collage, grafikę oraz terapia kolorami. Podczas zajęć dzieci poprzez
             sztukę odzwierciedlają swoje lęki, obawy, emocje. Takie zajęcia
-            pomagają zmniejszyć napięcie i niepokój.
+            pomagają zmniejszyć napięcie i&nbsp;niepokój.
           </p>
           <div className="services__modal-services">
             <img src={data.img} alt="..." />
@@ -90,14 +90,15 @@ const Project = ({ data }) => {
           ></i>
           <h3 className="services__modal-title">Grupowe zajęcia sportowe</h3>
           <p className="services__modal-description">
-            Celem zajęć sportowych jest rozwój równowagi i koordynacji ruchowej.
-            Dzięki zajęciom sportowym dzieci wzmacniają siłę mięśniową i
-            poprawiają wydolności organizmu, wdrażają się do aktywnych form
-            spędzania czasu wolnego, wyrabiają nawyk systematycznych ćwiczeń
-            fizycznych, odreagowują napięcia psychiczne, normalizują masę ciała.
-            W trakcie zajęć wdrażane są elementy gier sportowych, takich jak:
-            koszykówka, siatkówka, piłka nożna, badminton, tenis stołowy, dzięki
-            czemu podopieczni uczą się zasad współpracy i rywalizacji.
+            Celem zajęć sportowych jest rozwój równowagi i&nbsp;koordynacji
+            ruchowej. Dzięki zajęciom sportowym dzieci wzmacniają siłę mięśniową
+            i&nbsp;poprawiają wydolności organizmu, wdrażają się do aktywnych
+            form spędzania czasu wolnego, wyrabiają nawyk systematycznych
+            ćwiczeń fizycznych, odreagowują napięcia psychiczne, normalizują
+            masę ciała. W&nbsp;trakcie zajęć wdrażane są elementy gier
+            sportowych, takich jak: koszykówka, siatkówka, piłka nożna,
+            badminton, tenis stołowy, dzięki czemu podopieczni uczą się zasad
+            współpracy i&nbsp;rywalizacji.
           </p>
           <div className="services__modal-services">
             <img src={data.img} alt="..." />
@@ -118,20 +119,22 @@ const Project = ({ data }) => {
           <h3 className="services__modal-title">Grupowe zajęcia rekreacyjne</h3>
           <p className="services__modal-description">
             Minimum aktywności ruchowej u dziecka badacze wytyczają na 6 godzin
-            zorganizowanego ruchu w tygodniu. Aktywność ruchowa dziecka jest
-            niezbędna do prawidłowego jego funkcjonowania, dlatego dziecko
-            oprócz uczestnictwa w zajęciach wychowania fizycznego, odbywających
-            się w szkole, powinno mieć możliwość udziału w takich czynnościach
-            ze swoimi rówieśnikami poza szkołą. Największą potrzebę ruchową
-            dzieci wykazują w wieku przedszkolnym i wczesnoszkolnym, jest ona
-            konieczna do prawidłowego rozwoju umysłowego i fizycznego dziecka.
-            Dzieci w tym wieku wykazują nadmierną pobudliwość, dlatego też
+            zorganizowanego ruchu w&nbsp;tygodniu. Aktywność ruchowa dziecka
+            jest niezbędna do prawidłowego jego funkcjonowania, dlatego dziecko
+            oprócz uczestnictwa w&nbsp;zajęciach wychowania fizycznego,
+            odbywających się w&nbsp;szkole, powinno mieć możliwość udziału
+            w&nbsp;takich czynnościach ze swoimi rówieśnikami poza szkołą.
+            Największą potrzebę ruchową dzieci wykazują w&nbsp;wieku
+            przedszkolnym i&nbsp;wczesnoszkolnym, jest ona konieczna do
+            prawidłowego rozwoju umysłowego i&nbsp;fizycznego dziecka. Dzieci
+            w&nbsp;tym wieku wykazują nadmierną pobudliwość, dlatego też
             aktywność ruchowa powinna zmierzać do kształtowania ich zdolności
-            manualnych koordynacji ruchowej, reakcji na sygnały akustyczne i
-            optyczne. Niespełnienie minimalnej normy aktywności ruchowej
-            przyczynia się do ograniczenia wszelakich procesów zachodzących w
-            okresie rozwoju dziecka oraz może stać się czynnikiem hamującym
-            rozwój świadomości i aktywności ruchowej w dalszych etapach życia.
+            manualnych koordynacji ruchowej, reakcji na sygnały akustyczne
+            i&nbsp;optyczne. Niespełnienie minimalnej normy aktywności ruchowej
+            przyczynia się do ograniczenia wszelakich procesów zachodzących
+            w&nbsp;okresie rozwoju dziecka oraz może stać się czynnikiem
+            hamującym rozwój świadomości i&nbsp;aktywności ruchowej w dalszych
+            etapach życia.
           </p>
           <div className="services__modal-services">
             <img src={data.img} alt="..." />

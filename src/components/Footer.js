@@ -1,4 +1,5 @@
-import React from "react";
+import React, { useRef } from "react";
+import emailjs from "@emailjs/browser";
 import { motion } from "framer-motion";
 import {
   PaddingContainer,
@@ -12,10 +13,34 @@ import {
   FormLabel,
   FormInput,
   RightsReserved,
+  ButtonInput,
 } from "../styles/Footer.styled";
 import { fadeInBottomVariant } from "../utils/Variants";
 
 const Footer = () => {
+  const form = useRef();
+
+  const sendEmail = (e) => {
+    e.preventDefault();
+
+    emailjs
+      .sendForm(
+        "service_q23zirm",
+        "template_pmigalq",
+        form.current,
+        "_-HS8q-cdIcUEmpR1"
+      )
+      .then(
+        (result) => {
+          console.log(result.text);
+          console.log("message sent");
+        },
+        (error) => {
+          console.log(error.text);
+        }
+      );
+  };
+
   return (
     <PaddingContainer id="kontakt" top="5%" bottom="10%">
       <Heading
@@ -37,33 +62,47 @@ const Footer = () => {
         align="center"
         top="0.5rem"
       >
-        Kontakt <BlueText>z nami</BlueText>
+        Kontakt <BlueText>z&nbsp;nami</BlueText>
       </Heading>
       <PaddingContainer top="3rem">
         <FlexContainer justify="center">
           <ContactForm
+            ref={form}
+            onSubmit={sendEmail}
             as={motion.form}
             variants={fadeInBottomVariant}
             initial="hidden"
             whileInView="visible"
           >
             <PaddingContainer bottom="2rem">
-              <FormLabel>Imię i nazwisko:</FormLabel>
+              <FormLabel>Imię i&nbsp;nazwisko:</FormLabel>
               <FormInput
                 type="text"
+                name="user_name"
                 placeholder="Wpisz swoje imię i nazwisko"
+                required
               />
             </PaddingContainer>
             <PaddingContainer bottom="2rem">
               <FormLabel>Email:</FormLabel>
-              <FormInput type="email" placeholder="Podaj swój email" />
+              <FormInput
+                type="email"
+                name="user_email"
+                placeholder="Podaj swój email"
+                required
+              />
             </PaddingContainer>
             <PaddingContainer bottom="2rem">
               <FormLabel>Wiadomość:</FormLabel>
-              <FormInput as="textarea" placeholder="Napisz wiadomość" />
+              <FormInput
+                name="message"
+                as="textarea"
+                placeholder="Napisz wiadomość"
+                required
+              />
             </PaddingContainer>
             <FlexContainer justify="center" responsiveFlex>
-              <Button>Wyślij wiadomość</Button>
+              <ButtonInput type="submit" value="Wyślij" />
             </FlexContainer>
           </ContactForm>
         </FlexContainer>

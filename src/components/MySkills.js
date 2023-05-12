@@ -61,35 +61,36 @@ const MySkills = () => {
           </Heading>
           <ParaText top="2rem" bottom="1.5rem">
             Fundacja realizuje swoje cele statutowe poprzez prowadzenie
-            działalności nieodpłatnej i&nbsp;odpłatnej pożytku publicznego w
-            zakresie:
+            działalności nieodpłatnej i&nbsp;odpłatnej pożytku publicznego
+            w&nbsp;zakresie:
           </ParaText>
           <ParaText>
-            Prowadzenie działalności na rzecz upowszechniania kultury, sztuki i
-            sportu wśród dzieci i młodzieży.
+            Prowadzenie działalności na rzecz upowszechniania kultury, sztuki
+            i&nbsp;sportu wśród dzieci i&nbsp;młodzieży.
           </ParaText>
           <ParaText>
-            Tworzenie i prowadzenie galerii i pracowni plastycznych.
+            Tworzenie i&nbsp;prowadzenie galerii i&nbsp;pracowni plastycznych.
           </ParaText>
           <ParaText>
-            Organizowanie zajęć dydaktycznych z zakresu sztuk plastycznych,
-            kultury i sztuki.
+            Organizowanie zajęć dydaktycznych z&nbsp;zakresu sztuk plastycznych,
+            kultury i&nbsp;sztuki.
           </ParaText>
           <ParaText>
-            Wspieranie, finansowanie i dofinansowywanie edukacji artystycznej
-            dzieci i młodzieży.
+            Wspieranie, finansowanie i&nbsp;dofinansowywanie edukacji
+            artystycznej dzieci i&nbsp;młodzieży.
           </ParaText>
           <ParaText>
-            Upowszechnianie i promowanie w przedszkolach, szkołach i innych
-            placówkach oświatowych znaczenia nauki, kultury, sztuki i sportu.
+            Upowszechnianie i&nbsp;promowanie w&nbsp;przedszkolach, szkołach
+            i&nbsp;innych placówkach oświatowych znaczenia nauki, kultury,
+            sztuki i&nbsp;sportu.
           </ParaText>
           <ParaText>
-            Organizowanie i prowadzenie terapii zajęciowej dla dzieci i
-            młodzieży zagrożonej wykluczeniem, osób wykluczonych, potrzebujących
-            wsparcia.
+            Organizowanie i&nbsp;prowadzenie terapii zajęciowej dla dzieci
+            i&nbsp;młodzieży zagrożonej wykluczeniem, osób wykluczonych,
+            potrzebujących wsparcia.
           </ParaText>
           <ParaText>
-            Prowadzenie działań artystycznych w formie performensu, działań
+            Prowadzenie działań artystycznych w&nbsp;formie performensu, działań
             plastycznych, filmu, fotografii, nagrań, wydawnictw.
           </ParaText>
         </motion.div>

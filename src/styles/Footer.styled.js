@@ -24,6 +24,24 @@ export const FormInput = styled.input`
     color: ${({ theme }) => theme.colors.para_text_color};
   }
 `;
+
+export const ButtonInput = styled.input`
+  display: inline-block;
+  width: max-content;
+  padding: 1rem 2rem;
+  color: ${({ theme }) => theme.colors.white};
+  background: ${({ theme }) => theme.colors.primary_light};
+  border: 1px solid ${({ theme }) => theme.colors.gray};
+  border-radius: 5px;
+  cursor: pointer;
+  transition: all 0.3s ease;
+
+  &:hover {
+    color: ${({ theme }) => theme.colors.primary_light};
+    background: ${({ theme }) => theme.colors.white};
+  }
+`;
+
 export const MenuIcon = styled.div`
   color: ${({ theme }) => theme.colors.secondary};
   font-size: 1.6rem;
