@@ -83,7 +83,7 @@ export const Heading = styled(PaddingContainer)`
           return;
       }
     }};
-    display: flex;
+    /* display: flex; */
   }
 `;
 
