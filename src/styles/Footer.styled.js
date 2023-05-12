@@ -38,7 +38,7 @@ export const RightsReserved = styled.div`
 
   @media (max-width: ${({ theme }) => theme.breakpoints.mobile}) {
     bottom: 0;
-    padding-top: 2rem;
+    padding-top: 3rem;
     padding-bottom: 1rem;
   }
 `;
