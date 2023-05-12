@@ -84,7 +84,6 @@ export const Heading = styled(PaddingContainer)`
       }
     }};
     display: flex;
-    justify-content: space-around;
   }
 `;
 
