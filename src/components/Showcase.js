@@ -101,20 +101,20 @@ const Showcase = () => {
                 <BsFacebook />
               </a>
             </IconContainer>
-            <IconContainers color="white" size="1.5rem">
+            {/* <IconContainers color="white" size="1.5rem">
               status
               <BlueText>
                 <a
+                  download
                   href="../assets/wzor_statutu_fund.pdf"
                   rel="noopener noreferrer"
-                  target="popup"
-                  onclick="window.open('../assets/wzor_statutu_fund.pdf')"
-                  download
+                  target="_blank"
+                  // onclick="window.open('../assets/wzor_statutu_fund.pdf')"
                 >
                   <ImFileText />
                 </a>
               </BlueText>
-            </IconContainers>
+            </IconContainers> */}
           </FlexContainer>
         </motion.div>
         {/* right content */}
