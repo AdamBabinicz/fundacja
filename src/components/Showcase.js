@@ -107,7 +107,8 @@ const Showcase = () => {
                 <a
                   href="../assets/wzor_statutu_fund.pdf"
                   rel="noopener noreferrer"
-                  target="_blank"
+                  target="popup"
+                  onclick="window.open('../assets/wzor_statutu_fund.pdf')"
                   download
                 >
                   <ImFileText />
