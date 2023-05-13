@@ -13,7 +13,7 @@ import {
   TechStackCard,
   ProjectImage,
 } from "../../styles/MyProject.styled";
-import { FaSun } from "react-icons/fa";
+import { AiOutlineClose } from "react-icons/ai";
 import { fadeInLeftVariant, fadeInRightVariant } from "../../utils/Variants";
 
 const Project = ({ data }) => {
@@ -60,10 +60,10 @@ const Project = ({ data }) => {
         }
       >
         <div className="services__modal-content">
-          <i
+          <AiOutlineClose
             onClick={() => toggleTab(0)}
             className="uil uil-times services__modal-close"
-          ></i>
+          />
           <h3 className="services__modal-title">Plastykoterapia</h3>
           <p className="services__modal-description">
             Plastykoterapia to najogólniej biorąc terapia za pomocą sztuki –
@@ -84,10 +84,10 @@ const Project = ({ data }) => {
         }
       >
         <div className="services__modal-content">
-          <i
+          <AiOutlineClose
             onClick={() => toggleTab(0)}
             className="uil uil-times services__modal-close"
-          ></i>
+          />
           <h3 className="services__modal-title">Grupowe zajęcia sportowe</h3>
           <p className="services__modal-description">
             Celem zajęć sportowych jest rozwój równowagi i&nbsp;koordynacji
@@ -112,10 +112,10 @@ const Project = ({ data }) => {
         }
       >
         <div className="services__modal-content">
-          <i
+          <AiOutlineClose
             onClick={() => toggleTab(0)}
             className="uil uil-times services__modal-close"
-          ></i>
+          />
           <h3 className="services__modal-title">Grupowe zajęcia rekreacyjne</h3>
           <p className="services__modal-description">
             Minimum aktywności ruchowej u dziecka badacze wytyczają na 6 godzin
