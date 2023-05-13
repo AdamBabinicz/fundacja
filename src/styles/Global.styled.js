@@ -129,6 +129,10 @@ export const IconContainers = styled.div`
   color: #fff;
   margin-top: -0.5rem;
   margin-left: 4rem;
+
+  @media (max-width: ${({ theme }) => theme.breakpoints.mobile}) {
+    margin-left: 2rem;
+  }
 `;
 
 export const Button = styled.a`
