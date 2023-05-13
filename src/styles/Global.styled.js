@@ -131,7 +131,7 @@ export const IconContainers = styled.div`
   margin-left: 4rem;
 
   @media (max-width: ${({ theme }) => theme.breakpoints.mobile}) {
-    margin-left: 2rem;
+    margin-left: 1rem;
   }
 `;
 
