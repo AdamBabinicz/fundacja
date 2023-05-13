@@ -105,7 +105,7 @@ const Showcase = () => {
               status
               <BlueText>
                 <a
-                  href="https://wartosc.netlify.app/assets/wzor_statutu_fund.pdf"
+                  href="../assets/wzor_statutu_fund.pdf"
                   rel="noopener noreferrer"
                   target="_blank"
                   download
