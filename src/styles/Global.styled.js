@@ -121,6 +121,16 @@ export const IconContainer = styled.div`
   margin-left: 1rem;
 `;
 
+export const IconContainers = styled.div`
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  color: #fff;
+  margin-top: -0.5rem;
+  margin-left: 4rem;
+`;
+
 export const Button = styled.a`
   display: inline-block;
   width: max-content;

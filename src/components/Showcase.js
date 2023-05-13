@@ -9,6 +9,7 @@ import {
   BlueText,
   IconContainer,
   Links,
+  IconContainers,
 } from "../styles/Global.styled";
 import {
   ShowcaseParticleContainer,
@@ -16,6 +17,7 @@ import {
   Particle,
 } from "../styles/Showcase.styled";
 import { BsTwitter, BsYoutube, BsInstagram, BsFacebook } from "react-icons/bs";
+import { ImFileText } from "react-icons/im";
 import ShowcaseImg from "../assets/1.png";
 import BackgroundImg from "../assets/9.png";
 import { fadeInLeftVariant, fadeInRightVariant } from "../utils/Variants";
@@ -99,6 +101,19 @@ const Showcase = () => {
                 <BsFacebook />
               </a>
             </IconContainer>
+            <IconContainers color="white" size="1.5rem">
+              status
+              <BlueText>
+                <a
+                  href="..//assets/wzor_statutu_fund.pdf"
+                  rel="noopener noreferrer"
+                  target="_blank"
+                  download
+                >
+                  <ImFileText />
+                </a>
+              </BlueText>
+            </IconContainers>
           </FlexContainer>
         </motion.div>
         {/* right content */}
