@@ -34,11 +34,13 @@ const Footer = () => {
         (result) => {
           console.log(result.text);
           console.log("message sent");
+          alert("Wiadomość została wysłana pomyślnie");
         },
         (error) => {
           console.log(error.text);
         }
       );
+    e.target.reset();
   };
 
   return (
@@ -99,6 +101,7 @@ const Footer = () => {
                 name="message"
                 as="textarea"
                 placeholder="Napisz wiadomość"
+                rows="10"
                 required
               />
             </PaddingContainer>

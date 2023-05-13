@@ -19,6 +19,7 @@ export const FormInput = styled.input`
   color: ${({ theme }) => theme.colors.para_text_color};
   border-radius: 5px;
   padding: 15px;
+  resize: none;
 
   &::placeholder {
     color: ${({ theme }) => theme.colors.para_text_color};
