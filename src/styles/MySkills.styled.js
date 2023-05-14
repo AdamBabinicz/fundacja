@@ -18,6 +18,7 @@ export const SkillsCard = styled.div`
   border-radius: 1rem;
   display: flex;
   flex-direction: column;
+  justify-content: center;
   align-items: center;
   background: ${({ theme }) => theme.colors.primary_light};
 

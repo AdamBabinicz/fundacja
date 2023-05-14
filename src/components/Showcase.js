@@ -21,6 +21,7 @@ import { ImFileText } from "react-icons/im";
 import ShowcaseImg from "../assets/1.png";
 import BackgroundImg from "../assets/9.png";
 import { fadeInLeftVariant, fadeInRightVariant } from "../utils/Variants";
+import resume from "./wzor_statutu_fund.pdf";
 
 const Showcase = () => {
   return (
@@ -101,20 +102,21 @@ const Showcase = () => {
                 <BsFacebook />
               </a>
             </IconContainer>
-            {/* <IconContainers color="white" size="1.5rem">
-              status
-              <BlueText>
-                <a
-                  download
-                  href="../assets/wzor_statutu_fund.pdf"
-                  rel="noopener noreferrer"
-                  target="_blank"
-                  // onclick="window.open('../assets/wzor_statutu_fund.pdf')"
-                >
-                  <ImFileText />
-                </a>
-              </BlueText>
-            </IconContainers> */}
+            {
+              <IconContainers color="white" size="1.5rem">
+                status
+                <BlueText>
+                  <a
+                    download="resume"
+                    href={resume}
+                    rel="noopener noreferrer"
+                    target="_blank"
+                  >
+                    <ImFileText />
+                  </a>
+                </BlueText>
+              </IconContainers>
+            }
           </FlexContainer>
         </motion.div>
         {/* right content */}
