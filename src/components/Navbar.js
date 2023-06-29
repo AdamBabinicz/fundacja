@@ -35,7 +35,7 @@ const Navbar = () => {
           <FlexContainer justify="space-between" responsiveFlex>
             {/* left-logo */}
             <Logo>
-              w<BlueText>ART</BlueText>ość
+              w<BlueText>ART</BlueText>ości
             </Logo>
             {/* right-menu-icon */}
             <MenuIcon

@@ -46,7 +46,7 @@ const Showcase = () => {
             fundacja pożytku publicznego
           </Heading>
           <Heading as="h1" size="h1" top="0.5rem" bottom="1rem">
-            w<BlueText>ART</BlueText>ość
+            w<BlueText>ART</BlueText>ości
           </Heading>
           <Heading as="h4" size="h4">
             działaność na rzecz&nbsp;

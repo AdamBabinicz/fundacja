@@ -18,28 +18,28 @@ export const Skills = [
   },
   {
     id: 1,
-    tech: "118 14 28 385",
+    tech: "7963019267",
     icon: "NIP",
   },
   {
     id: 2,
-    tech: "014902795",
+    tech: "525608560",
     icon: "REGON",
   },
   {
     id: 3,
-    tech: "0000037904",
+    tech: "0001042490",
     icon: "KRS",
   },
   {
     id: 4,
-    tech1: "Traugutta 40",
+    tech1: "Żeromskiego 95/97",
     tech: "26-600 Radom",
     icon: <SlLocationPin />,
   },
   {
     id: 5,
-    tech: "000 000 000",
+    tech: "506 805 169",
     icon: <AiOutlinePhone />,
   },
 ];
