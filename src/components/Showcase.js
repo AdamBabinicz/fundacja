@@ -18,7 +18,7 @@ import {
 } from "../styles/Showcase.styled";
 import { BsTwitter, BsYoutube, BsInstagram, BsFacebook } from "react-icons/bs";
 import { ImFileText } from "react-icons/im";
-import ShowcaseImg from "../assets/1.png";
+import ShowcaseImg from "../assets/11.png";
 import BackgroundImg from "../assets/9.png";
 import { fadeInLeftVariant, fadeInRightVariant } from "../utils/Variants";
 import resume from "./wzor_statutu_fund.pdf";
