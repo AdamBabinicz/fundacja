@@ -22,9 +22,6 @@ function App() {
       "success"
     );
   }, []);
-  const Alert = () => {
-    Swal.fire("dziękujemy");
-  };
 
   return (
     <ThemeProvider theme={theme}>
