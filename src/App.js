@@ -1,4 +1,4 @@
-import React from "react";
+import React, { useEffect } from "react";
 import { ThemeProvider } from "styled-components";
 import { theme } from "./utils/Theme";
 import { Container, MainBody, FadeImage } from "./styles/Global.styled";
@@ -12,8 +12,20 @@ import LeftFadeImage from "./assets/left.png";
 import RightFadeImage from "./assets/right.png";
 import BottomFadeImage from "./assets/bottom.png";
 import CookieConsent from "react-cookie-consent";
+import Swal from "sweetalert2";
 
 function App() {
+  useEffect(() => {
+    Swal.fire(
+      "34 6700 3001 0001 9076 5410 0004",
+      "Dziękujemy za wsparcie!",
+      "success"
+    );
+  }, []);
+  const Alert = () => {
+    Swal.fire("dziękujemy");
+  };
+
   return (
     <ThemeProvider theme={theme}>
       <MainBody>
