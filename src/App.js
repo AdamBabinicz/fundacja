@@ -16,11 +16,16 @@ import Swal from "sweetalert2";
 
 function App() {
   useEffect(() => {
-    Swal.fire(
-      "34 6700 3001 0001 9076 5410 0004",
-      "Dziękujemy za wsparcie!",
-      "success"
-    );
+    const timer = setTimeout(() => {
+      Swal.fire(
+        "34 6700 3001 0001 9076 5410 0004",
+        "Dziękujemy za wsparcie!",
+        "success"
+      );
+    }, 2000);
+
+    // Czyszczenie timera przy odmontowaniu komponentu (ważne)
+    return () => clearTimeout(timer);
   }, []);
 
   return (
