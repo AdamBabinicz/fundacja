@@ -18,7 +18,7 @@ function App() {
   useEffect(() => {
     const timer = setTimeout(() => {
       Swal.fire(
-        "34 6700 3001 0001 9076 5410 0004",
+        "29 1140 2004 0000 3102 8386 3114",
         "Dziękujemy za wsparcie!",
         "success"
       );
