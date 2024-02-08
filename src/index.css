@@ -131,3 +131,30 @@ p {
     object-fit: cover;
   }
 }
+
+.scroll-to-top {
+  position: fixed;
+  bottom: 20px;
+  right: 20px;
+  /* background: #696969; */
+  color: #696969;
+  border: none;
+  border-radius: 5px;
+  /* padding: 10px 20px; */
+  cursor: pointer;
+  z-index: 1000;
+  opacity: 0.8;
+  transition: all 0.3s ease-in-out;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  &:hover {
+    opacity: 1;
+    color: #fff;
+  }
+
+  .arrow {
+    font-size: 2rem;
+  }
+}

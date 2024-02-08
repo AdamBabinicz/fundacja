@@ -13,6 +13,7 @@ import RightFadeImage from "./assets/right.png";
 import BottomFadeImage from "./assets/bottom.png";
 import CookieConsent from "react-cookie-consent";
 import Swal from "sweetalert2";
+import ScrollToTopButton from "./ScrollToTopButton";
 
 function App() {
   useEffect(() => {
@@ -41,6 +42,7 @@ function App() {
         <FadeImage src={TopFadeImage} top="0" />
         <FadeImage src={LeftFadeImage} top="30vh" />
       </MainBody>
+      <ScrollToTopButton />
       <CookieConsent
         debug={true}
         location="bottom"
