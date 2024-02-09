@@ -1,0 +1,75 @@
+.gallery-container {
+  position: relative;
+  width: 100%;
+  max-width: 1150px; /* Ustaw maksymalną szerokość galerii */
+  margin: auto;
+  overflow: hidden;
+}
+
+.gallery-image {
+  display: block;
+  width: 1150px;
+  max-width: 100%;
+  height: 550px;
+  max-height: 100%;
+  object-fit: cover;
+  transition: all 0.3s ease-in-out; /* Dodaj efekt przejścia */
+}
+
+.arrow {
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+  background: rgba(0, 0, 0, 0.5); /* Dodaj tło dla strzałek */
+  color: white;
+  border: none;
+  cursor: pointer;
+  font-size: 18px;
+  width: 40px;
+  height: 40px;
+  transition: all 0.3s ease-in-out; /* Dodaj efekt przejścia */
+}
+
+.arrow:hover {
+  background: rgba(0, 0, 0, 0.8); /* Zmiana koloru tła przy najechaniu myszą */
+}
+
+.left-arrow {
+  left: 0;
+  border-radius: 0 5px 5px 0;
+}
+
+.right-arrow {
+  right: 0;
+  border-radius: 5px 0 0 5px;
+}
+
+/* .gallery-popup-overlay {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: rgba(0, 0, 0, 0.5); 
+  display: flex;
+  justify-content: center;
+  align-items: center;
+} */
+
+/* .gallery-popup {
+  background: white;
+  padding: 20px;
+  border-radius: 5px;
+  width: 50%;
+  height: 50%;
+} */
+
+/* .close-button {
+  position: absolute;
+  top: 10px;
+  right: 10px;
+  background: transparent;
+  border: none;
+  cursor: pointer;
+  font-size: 16px;
+} */

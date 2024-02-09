@@ -1,4 +1,4 @@
-import React from "react";
+import React, { useState } from "react";
 import { motion } from "framer-motion";
 import { Links as Link } from "react-router-dom";
 import {
@@ -17,13 +17,25 @@ import {
   Particle,
 } from "../styles/Showcase.styled";
 import { BsTwitter, BsYoutube, BsInstagram, BsFacebook } from "react-icons/bs";
+import { TfiGallery } from "react-icons/tfi";
 import { ImFileText } from "react-icons/im";
 import ShowcaseImg from "../assets/11.png";
 import BackgroundImg from "../assets/9.png";
 import { fadeInLeftVariant, fadeInRightVariant } from "../utils/Variants";
 import resume from "./wzor_statutu_fund.pdf";
+import GalleryPopup from "./GalleryPopup";
 
 const Showcase = () => {
+  const [isGalleryOpen, setIsGalleryOpen] = useState(false);
+
+  const openGallery = () => {
+    setIsGalleryOpen(true);
+  };
+
+  const closeGallery = () => {
+    setIsGalleryOpen(false);
+  };
+
   return (
     <PaddingContainer
       id="start"
@@ -117,6 +129,22 @@ const Showcase = () => {
                 </BlueText>
               </IconContainers>
             }
+            {
+              <IconContainers color="white" size="1.5rem">
+                galeria
+                <BlueText>
+                  <a
+                    // download="resume"
+                    // href={resume}
+                    // rel="noopener noreferrer"
+                    target="_blank"
+                    onClick={openGallery}
+                  >
+                    <TfiGallery />
+                  </a>
+                </BlueText>
+              </IconContainers>
+            }
           </FlexContainer>
         </motion.div>
         {/* right content */}
@@ -182,6 +210,7 @@ const Showcase = () => {
           </ShowcaseParticleContainer>
         </FlexContainer>
       </FlexContainer>
+      <GalleryPopup isOpen={isGalleryOpen} onClose={closeGallery} />
     </PaddingContainer>
   );
 };

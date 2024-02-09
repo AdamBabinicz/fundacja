@@ -17,7 +17,7 @@ export const ShowcaseImageCard = styled.div`
   border-radius: 1rem;
   position: relative;
   overflow: hidden;
-  z-index: 1;
+  /* z-index: 1; */
 
   & img {
     width: 100%;
