@@ -10,6 +10,23 @@ export const Container = styled.div`
   margin: auto;
 `;
 
+// export const FlexContainer = styled.div`
+//   display: flex;
+//   justify-content: ${(props) => props.justify};
+//   align-items: ${(props) => props.align || ""};
+//   gap: ${({ gap }) => gap};
+//   flex-direction: ${({ rowReverse }) => (rowReverse ? "row-reverse" : "row")};
+
+//   & > div {
+//     flex: ${({ fullWidthChild }) => fullWidthChild && 1};
+//   }
+
+//   @media (max-width: ${({ theme }) => theme.breakpoints.mobile}) {
+//     display: ${({ responsiveFlex }) => (responsiveFlex ? "flex" : "block")};
+//     flex-direction: ${({ responsiveDirection }) => responsiveDirection};
+//   }
+// `;
+
 export const FlexContainer = styled.div`
   display: flex;
   justify-content: ${(props) => props.justify};
@@ -24,6 +41,9 @@ export const FlexContainer = styled.div`
   @media (max-width: ${({ theme }) => theme.breakpoints.mobile}) {
     display: ${({ responsiveFlex }) => (responsiveFlex ? "flex" : "block")};
     flex-direction: ${({ responsiveDirection }) => responsiveDirection};
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 10px;
   }
 `;
 

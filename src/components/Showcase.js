@@ -114,37 +114,31 @@ const Showcase = () => {
                 <BsFacebook />
               </a>
             </IconContainer>
-            {
-              <IconContainers color="white" size="1.5rem">
-                status
-                <BlueText>
-                  <a
-                    download="resume"
-                    href={resume}
-                    rel="noopener noreferrer"
-                    target="_blank"
-                  >
-                    <ImFileText />
-                  </a>
-                </BlueText>
-              </IconContainers>
-            }
-            {
-              <IconContainers color="white" size="1.5rem">
-                galeria
-                <BlueText>
-                  <a
-                    // download="resume"
-                    // href={resume}
-                    // rel="noopener noreferrer"
-                    target="_blank"
-                    onClick={openGallery}
-                  >
-                    <TfiGallery />
-                  </a>
-                </BlueText>
-              </IconContainers>
-            }
+            {/* { */}
+            <IconContainers color="white" size="1.5rem">
+              status
+              <BlueText>
+                <a
+                  download="resume"
+                  href={resume}
+                  rel="noopener noreferrer"
+                  target="_blank"
+                >
+                  <ImFileText />
+                </a>
+              </BlueText>
+            </IconContainers>
+            {/* } */}
+            {/* { */}
+            <IconContainers color="white" size="1.5rem">
+              galeria
+              <BlueText>
+                <a target="_blank" onClick={openGallery}>
+                  <TfiGallery />
+                </a>
+              </BlueText>
+            </IconContainers>
+            {/* } */}
           </FlexContainer>
         </motion.div>
         {/* right content */}
