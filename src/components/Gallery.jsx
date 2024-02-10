@@ -2,13 +2,7 @@ import React, { useState } from "react";
 import { useSwipeable } from "react-swipeable";
 import "./Gallery.css";
 
-const images = [
-  "/img/15.jpg",
-  "/img/16.jpg",
-  "/img/17.jpg",
-  "/img/18.jpg",
-  // Dodaj więcej adresów URL obrazów, jeśli jest ich więcej
-];
+const images = ["/img/15.jpg", "/img/16.jpg", "/img/17.jpg", "/img/18.jpg"];
 
 const Gallery = () => {
   const [currentIndex, setCurrentIndex] = useState(0);
