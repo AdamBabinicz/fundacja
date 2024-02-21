@@ -114,7 +114,7 @@ const Showcase = () => {
                 <BsFacebook />
               </a>
             </IconContainer>
-            {/* { */}
+
             <IconContainers color="white" size="1.5rem">
               status
               <BlueText>
@@ -128,13 +128,12 @@ const Showcase = () => {
                 </a>
               </BlueText>
             </IconContainers>
-            {/* } */}
-            {/* { */}
+
             <IconContainers color="white" size="1.5rem">
               galeria
               <BlueText>
                 <a target="_blank" onClick={openGallery}>
-                  <TfiGallery />
+                  <TfiGallery className="orange" />
                 </a>
               </BlueText>
             </IconContainers>
@@ -153,7 +152,7 @@ const Showcase = () => {
             <ShowcaseImageCard>
               <img src={ShowcaseImg} alt="..." />
             </ShowcaseImageCard>
-            <Particle
+            {/* <Particle
               as={motion.img}
               animate={{
                 x: [0, 100, 0],
@@ -200,7 +199,7 @@ const Showcase = () => {
               bottom="10px"
               left="-70px"
               rotate="50deg"
-            />
+            /> */}
           </ShowcaseParticleContainer>
         </FlexContainer>
       </FlexContainer>
