@@ -153,7 +153,7 @@ export const IconContainers = styled.div`
   .orange {
     color: orange;
     font-size: 3rem;
-    margin-top: 1rem;
+    margin-top: 0.5rem;
   }
 
   @media (max-width: ${({ theme }) => theme.breakpoints.mobile}) {
