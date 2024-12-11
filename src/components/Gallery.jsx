@@ -3,15 +3,15 @@ import { useSwipeable } from "react-swipeable";
 import "./Gallery.css";
 
 const images = [
-  "/img/0.jpg",
-  "/img/1.jpg",
-  "/img/2.jpg",
-  "/img/3.jpg",
-  "/img/4.jpg",
-  "/img/5.jpg",
-  "/img/6.jpg",
-  "/img/7.jpg",
-  "/img/8.jpg",
+  "/img/0.avif",
+  "/img/1.avif",
+  "/img/2.avif",
+  "/img/3.avif",
+  "/img/4.avif",
+  "/img/5.avif",
+  "/img/6.avif",
+  "/img/7.avif",
+  "/img/8.avif",
 ];
 
 const Gallery = () => {
