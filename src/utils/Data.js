@@ -1,9 +1,9 @@
-import Project1 from "../assets/5.jpg";
-import Project2 from "../assets/10.jpg";
-import Project3 from "../assets/3.jpg";
-import Project4 from "../assets/11.jpg";
-import Project5 from "../assets/14.jpg";
-import Project6 from "../assets/12.jpg";
+import Project1 from "../assets/5.avif";
+import Project2 from "../assets/10.avif";
+import Project3 from "../assets/3.avif";
+import Project4 from "../assets/11.1.avif";
+import Project5 from "../assets/14.avif";
+import Project6 from "../assets/12.avif";
 import { SlLocationPin } from "react-icons/sl";
 import { AiOutlinePhone } from "react-icons/ai";
 import { FaVolleyballBall } from "react-icons/fa";

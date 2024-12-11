@@ -19,7 +19,7 @@ import {
 import { BsTwitter, BsYoutube, BsInstagram, BsFacebook } from "react-icons/bs";
 import { TfiGallery } from "react-icons/tfi";
 import { ImFileText } from "react-icons/im";
-import ShowcaseImg from "../assets/11.png";
+import ShowcaseImg from "../assets/11.avif";
 import BackgroundImg from "../assets/9.png";
 import { fadeInLeftVariant, fadeInRightVariant } from "../utils/Variants";
 import resume from "./wzor_statutu_fund.pdf";
@@ -150,7 +150,7 @@ const Showcase = () => {
         >
           <ShowcaseParticleContainer>
             <ShowcaseImageCard>
-              <img src={ShowcaseImg} alt="..." />
+              <img src={ShowcaseImg} alt="..." loading="lazy" />
             </ShowcaseImageCard>
             {/* <Particle
               as={motion.img}
