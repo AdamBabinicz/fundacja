@@ -40,7 +40,12 @@ const Gallery = () => {
       <button className="arrow left-arrow" onClick={prevImage}>
         &#10094;
       </button>
-      <img className="gallery-image" src={images[currentIndex]} alt="..." />
+      <img
+        className="gallery-image"
+        src={images[currentIndex]}
+        alt="..."
+        loading="lazy"
+      />
       <button className="arrow right-arrow" onClick={nextImage}>
         &#10095;
       </button>
